@@ -1,0 +1,21 @@
+@import './common.css';
+@import './medaiQuerry.css';
+
+
+.overview-stats-containor{
+    height: 6em;
+    padding: 0.8em 1.2em;
+}
+
+.typeofinfo__text{
+    font-weight: var(--Weight-700);
+}
+
+
+.today__stats img{
+    height: 0.4em;
+}
+
+.overview-stats-containor .today__stats .today.followers__number{
+    font-size: 1.2em;
+}

@@ -1,0 +1,21 @@
+/* media querries */
+@media screen and (max-width: 445px) {
+    .nav {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px 1em;
+    }
+
+    .right__down__align__section {
+        justify-content: space-between;
+        margin-top: 1em;
+    }
+}
+
+
+@media screen and (min-width: 375px) {
+    .grid-containor {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+}

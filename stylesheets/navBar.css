@@ -1,0 +1,80 @@
+@import './common.css';
+@import './medaiQuerry.css';
+
+
+#main__nav {
+    width: min(1024px, 100%);
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+
+.nav {
+    width: var(--website-content-area-width);
+    margin: var(--website-content-area-margin);
+    padding: var(--website-content-area-padding)
+}
+
+.left__up__align__section, .right__down__align__section {
+    flex: 1 0 auto;
+}
+
+
+
+
+.left__up__align__section .heading {
+    color: var(--heading-color);
+    font-size: 1.2em;
+    font-weight: var(--Weight-700);
+    padding-bottom: 0.18em;
+}
+
+
+
+
+/* Toggle [START]*/
+.switch {
+    margin-left: 0.8em;
+    width: 2.2em;
+    height: 1.2em;
+    position: relative;
+    display: inline-block;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    border-radius: 0.5em;
+    padding: 0.6em;
+    background-image: var(--toogle-gradient);
+}
+
+.slider::before {
+    position: absolute;
+    content: '';
+    background-image: var(--toggler-round-clr);
+    height: 0.8em;
+    width: 0.8em;
+    left: 4px;
+    bottom: 0.2em;
+    border-radius: 50%;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+input:checked+.slider:before {
+    transform: translateX(0.8em)
+}
+
+/* Toggle [END]*/

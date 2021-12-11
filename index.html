@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./main.css">
+    <title>Frontend Mentor | Social media dashboard</title>
+</head>
+
+<body class="light-Theme">
+    <header id="main__nav">
+        <nav class="nav flex">
+            <div class="left__up__align__section">
+                <h1 class="heading">Social Media Dashboard</h1>
+                <p class="db__identifier grayish__text">Total Followers : <span
+                        class="total__followlrs__count">23,004</span></p>
+            </div>
+            <div class="right__down__align__section flex flex_jcr flex_aic">
+                <p class="toggleText grayish__text">Dark mode</p>
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggler">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main stats sections -->
+    <div class="main__stats__overview__containor stat__containor">
+        <h2 class="containor__text">Media handles</h2>
+        <div class="grid-containor">
+            <div class="grid-items main-stats-containor twitter flex fdc flex_aic flex_jcsb" data-border="--Facebook">
+                <span class="card__indicator flex flex_aic">
+                    <img src="./images/icon-twitter.svg" alt="twitter svg" id="mediaHandlesLogo">
+                    <p class="social__media__userName grayish__text">@nathanf</p>
+                </span>
+
+                <span class="followers flex fdc flex_aic">
+                    <h2 class="followers__number">1987</h2>
+                    <p class="followers__text grayish__text">Followers</p>
+                </span>
+                <p class="live__activity stat__clr__up"><img style="margin-right: 0.4em;"
+                        src="./images/icon-up.svg" alt="nagetive">12 Today</p>
+            </div>
+
+            <div class="grid-items main-stats-containor facebook flex fdc flex_aic flex_jcsb">
+                <span class="card__indicator flex flex_aic">
+                    <img src="./images/icon-facebook.svg" alt="facebook svg" id="mediaHandlesLogo">
+                    <p class="social__media__userName grayish__text">@nathanf </p>
+                </span>
+
+                <span class="followers flex fdc flex_aic">
+                    <h2 class="followers__number"> 1044 </h2>
+                    <p class="followers__text grayish__text">Followers</p>
+                </span>
+                <p class="live__activity stat__clr__up"><img style="margin-right: 0.4em;"
+                        src="./images/icon-up.svg" alt="nagetive">99 Today</p>
+            </div>
+            <div class="grid-items main-stats-containor instagram flex fdc flex_aic flex_jcsb">
+                <span class="card__indicator flex flex_aic">
+                    <img src="./images/icon-instagram.svg" alt="instagram svg" id="mediaHandlesLogo">
+                    <p class="social__media__userName grayish__text">@realnathanf</p>
+                </span>
+
+                <span class="followers flex fdc flex_aic">
+                    <h2 class="followers__number">11k</h2>
+                    <p class="followers__text grayish__text">Followers</p>
+                </span>
+                <p class="live__activity stat__clr__up flex flex_aic"><img style="margin-right: 0.4em;"
+                        src="./images/icon-up.svg" alt="nagetive"> 1099 Today</p>
+            </div>
+            <div class="grid-items main-stats-containor youtube flex fdc flex_aic flex_jcsb">
+                <span class="card__indicator flex flex_aic">
+                    <img src="./images/icon-youtube.svg" alt="Youtube svg" id="mediaHandlesLogo">
+                    <p class="social__media__userName grayish__text">@NathanF</p>
+                </span>
+
+                <span class="followers flex fdc flex_aic">
+                    <h2 class="followers__number">8239</h2>
+                    <p class="followers__text grayish__text">Subscribers</p>
+                </span>
+                <p class="live__activity stat__clr__down">
+                    <img style="margin-right: 0.4em;" src="./images/icon-down.svg" alt="nagetive"> 144 Today
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- overview stats containor -->
+    <div class="overview__stat__containor stat__containor">
+        <h2 class="containor__text">Overview-Today</h2>
+        <div class="grid-containor">
+            <div class="grid-items overview-stats-containor flex fdc flex_jcsb">
+                <span class="card__identifier flex flex_jcsb flex_aic">
+                    <p class="typeofinfo__text grayish__text">Page views</p>
+                    <img src="./images/icon-facebook.svg" alt="Facebook" id="mediaHandlesLogo">
+                </span>
+                <span class="today__stats flex flex_jcsb flex_aic">
+                    <h2 class="today followers__number">87</h2>
+                    <p class="live__activity stat__clr__up"><img style="margin-right: 0.4em;"
+                        src="./images/icon-up.svg" alt="nagetive">3%</p>
+                </span>
+            </div>
+            <div class="grid-items overview-stats-containor flex fdc flex_jcsb">
+                <span class="card__identifier flex flex_jcsb flex_aic">
+                    <p class="typeofinfo__text grayish__text">Likes</p>
+                    <img src="./images/icon-facebook.svg" alt="Facebook" id="mediaHandlesLogo">
+                </span>
+                <span class="today__stats flex flex_jcsb flex_aic">
+                    <h2 class="today followers__number">52</h2>
+                    <p class="live__activity stat__clr__down"><img style="margin-right: 0.4em;"
+                        src="./images/icon-down.svg" alt="nagetive">2%</p>
+                </span>
+            </div>
+            <div class="grid-items overview-stats-containor flex fdc flex_jcsb">
+                <span class="card__identifier flex flex_jcsb flex_aic">
+                    <p class="typeofinfo__text grayish__text">Page views</p>
+                    <img src="./images/icon-instagram.svg" alt="Instagram" id="mediaHandlesLogo">
+                </span>
+                <span class="today__stats flex flex_jcsb flex_aic">
+                    <h2 class="today followers__number">5462</h2>
+                    <p class="live__activity stat__clr__up"><img style="margin-right: 0.4em;"
+                        src="./images/icon-up.svg" alt="nagetive">2567%</p>
+                </span>
+            </div>
+            <div class="grid-items overview-stats-containor flex fdc flex_jcsb">
+                <span class="card__identifier flex flex_jcsb flex_aic">
+                    <p class="typeofinfo__text grayish__text">Profile Views</p>
+                    <img src="./images/icon-instagram.svg" alt="Instagram" id="mediaHandlesLogo">
+                </span>
+                <span class="today__stats flex flex_jcsb flex_aic">
+                    <h2 class="today followers__number">52k</h2>
+                    <p class="live__activity stat__clr__up"><img style="margin-right: 0.4em;"
+                        src="./images/icon-up.svg" alt="nagetive">1375%</p>
+                </span>
+            </div>
+            <div class="grid-items overview-stats-containor flex fdc flex_jcsb">
+                <span class="card__identifier flex flex_jcsb flex_aic">
+                    <p class="typeofinfo__text grayish__text">Retweets</p>
+                    <img src="./images/icon-twitter.svg" alt="Twitter" id="mediaHandlesLogo">
+                </span>
+                <span class="today__stats flex flex_jcsb flex_aic">
+                    <h2 class="today followers__number">117</h2>
+                    <p class="live__activity stat__clr__up"><img style="margin-right: 0.4em;"
+                        src="./images/icon-up.svg" alt="nagetive">303%</p>
+                </span>
+            </div>
+            <div class="grid-items overview-stats-containor flex fdc flex_jcsb">
+                <span class="card__identifier flex flex_jcsb flex_aic">
+                    <p class="typeofinfo__text grayish__text">Likes</p>
+                    <img src="./images/icon-twitter.svg" alt="Twitter" id="mediaHandlesLogo">
+                </span>
+                <span class="today__stats flex flex_jcsb flex_aic">
+                    <h2 class="today followers__number"> 507 </h2>
+                    <p class="live__activity stat__clr__up"><img style="margin-right: 0.4em;"
+                        src="./images/icon-up.svg" alt="nagetive">507%</p>
+                </span>
+            </div>
+            <div class="grid-items overview-stats-containor flex fdc flex_jcsb">
+                <span class="card__identifier flex flex_jcsb flex_aic">
+                    <p class="typeofinfo__text grayish__text">Likes</p>
+                    <img src="./images/icon-youtube.svg" alt="Youtube" id="mediaHandlesLogo">
+                </span>
+                <span class="today__stats flex flex_jcsb flex_aic">
+                    <h2 class="today followers__number">107</h2>
+                    <p class="live__activity stat__clr__down"><img style="margin-right: 0.4em;"
+                        src="./images/icon-down.svg" alt="nagetive">19%</p>
+                </span>
+            </div>
+            <div class="grid-items overview-stats-containor flex fdc flex_jcsb">
+                <span class="card__identifier flex flex_jcsb flex_aic">
+                    <p class="typeofinfo__text grayish__text">Total views</p>
+                    <img src="./images/icon-youtube.svg" alt="Youtube" id="mediaHandlesLogo">
+                </span>
+                <span class="today__stats flex flex_jcsb flex_aic">
+                    <h2 class="today followers__number">1407</h2>
+                    <p class="live__activity stat__clr__down">
+                        <img style="margin-right: 0.4em;"
+                        src="./images/icon-down.svg" alt="nagetive">12%</p>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>

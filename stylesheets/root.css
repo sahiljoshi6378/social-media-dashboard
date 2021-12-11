@@ -1,0 +1,73 @@
+:root {
+    /* ## Colors */
+
+    /* ### Primary */
+    --Lime-Green: hsl(163, 72%, 41%);
+    --Bright-Red: hsl(356, 69%, 56%);
+    --Facebook: linear-gradient(to right, hsl(203, 89%, 53%), hsl(208, 92%, 53%));
+    --Twitter: linear-gradient(to right, hsl(203, 89%, 53%), hsl(208, 92%, 53%));
+    --Instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    --YouTube: linear-gradient(to right, hsl(348, 91%, 45%), hsl(348, 97%, 39%));
+    /* #### Dark Theme */
+
+    /* dark-theme */
+    --Dark-theme-app-bg: hsl(230, 17%, 14%);
+    --Dark-theme-cards-clr: hsl(228, 28%, 20%);
+    --Dark-theme-slider-round-clr: linear-gradient(to right, hsl(233, 14%, 24%), hsl(233, 16%, 10%));
+    --Dark-theme-slider-bg: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    --Dark-theme-greyish-clr: hsl(228, 34%, 66%);
+    --Dark-theme-heading-clr: hsl(0, 0%, 100%);
+
+    /* #### Light Theme */
+
+    --Light-theme-app-bg: hsl(0, 0%, 100%);
+    --Light-theme-cards-clr: hsl(233, 14%, 89%);
+    --Light-theme-slider-round-clr: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    --Light-theme-slider-bg:  linear-gradient(to right, hsl(233, 14%, 24%), hsl(233, 16%, 10%)); 
+    --Light-theme-greyish-clr: hsl(228, 13%, 15%);
+    --Light-theme-heading-clr: hsl(230, 17%, 14%);
+
+    /* break points */
+    --Mobile: 375px;
+    --Desktop: 1440px;
+
+    /* weights and fonts */
+    --Weight-400: 400;
+    --Weight-700: 700;
+    --Font-size-Overview-Card-Headings: 14px;
+    --font-family: 'Inter', sans-serif;
+
+
+    /* box-shadows */
+
+
+    /* custom styles variables */
+    --box-borders: 0.25em;
+    --website-content-area-width: min(1024px, 100%);
+    --website-content-area-margin: auto;
+    --website-content-area-padding: 0.5em 1em 0.5em 1em;
+}
+
+
+
+
+/* #### Light Theme */
+.dark-Theme {
+    --app-background: var(--Dark-theme-app-bg);
+    --toggler-round-clr: var(--Dark-theme-slider-round-clr);
+    --toogle-gradient: var(--Dark-theme-slider-bg);
+    --cards-bg: var(--Dark-theme-cards-clr);
+    --grayish__common__text: var(--Dark-theme-greyish-clr);
+    --heading-color: var(--Dark-theme-heading-clr);
+
+}
+
+.light-Theme {
+    --app-background: var(--Light-theme-app-bg);
+    --toggler-round-clr: var(--Light-theme-slider-round-clr);
+    --toogle-gradient: var(--Light-theme-slider-bg);
+    --cards-bg: var(--Light-theme-cards-clr);
+    --grayish__common__text: var(--Light-theme-greyish-clr);
+    --heading-color: var(--Light-theme-heading-clr);
+
+}

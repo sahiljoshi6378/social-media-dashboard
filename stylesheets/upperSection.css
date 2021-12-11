@@ -1,0 +1,61 @@
+@import './common.css';
+@import './medaiQuerry.css';
+
+/* main stats sections */
+
+
+
+.main-stats-containor{
+    height: 12em;
+    padding: 1.8em 0px 1.8em 0px;
+
+}
+
+.main-stats-containor::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.3em;
+    top: 0;
+    left: 0;
+    border-top-left-radius: var(--box-borders);
+    border-top-right-radius: var(--box-borders);
+}
+
+.card__indicator img {
+    height: 0.8em;
+    margin-right: 0.5em;
+}
+
+.followers__number {
+    color: var(--heading-color);
+    font-size: 2.5em;
+    font-weight: var(--Weight-700);
+}
+
+.followers__text {
+    font-size: 0.7em;
+    font-weight: var(--Weight-400);
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+
+
+.twitter::before {
+    background-image: var(--Twitter);
+}
+
+.facebook::before {
+
+    background-image: var(--Facebook);
+}
+
+.instagram::before {
+    background-image: var(--Instagram);
+}
+
+
+.youtube::before {
+    background-image: var(--YouTube);
+}
